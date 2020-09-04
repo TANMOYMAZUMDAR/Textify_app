@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "517620623677",
+    "firebase_url": "https://rcognizeapp.firebaseio.com",
+    "project_id": "rcognizeapp",
+    "storage_bucket": "rcognizeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517620623677:android:8190fffe7341a4263bbd54",
+        "android_client_info": {
+          "package_name": "com.example.textify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517620623677-43cadfkolhcq7vvhfs1bfglaab6fng8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX3JR5SzjDWtPunFfsLsVaAAxWlXsWsnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517620623677-43cadfkolhcq7vvhfs1bfglaab6fng8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

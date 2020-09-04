@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/audio_button"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:id="@+id/detect_text"
+        android:text=""
+        android:textSize="20sp"
+        android:maxLines="50"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true">
+<Button
+    android:layout_width="150dp"
+
+    android:layout_height="match_parent"
+    android:text="@string/capture_image"
+    android:textSize="20sp"
+    android:textColor="#082B26"
+    android:textAllCaps="false"
+    android:id="@+id/image_capture"
+    android:background="@drawable/custom_button"
+    />
+
+    <Button
+        android:id="@+id/image_detect"
+        android:layout_width="175dp"
+
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:text="@string/detect_text"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"
+        android:textColor="#082B26"
+        android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp">
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Say It!"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:textColor="#082B26"
+        android:id="@+id/button_speak"
+        android:background="@drawable/design_button"
+        android:enabled="false" />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_baseline_volume_up_24"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:text="Speed"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:layout_height="20dp"/>
+        <SeekBar
+            android:layout_width="200dp"
+            android:id="@+id/speed_seekBar"
+            android:layout_height="wrap_content"
+            android:progress="50"/>
+    </LinearLayout>
+
+</RelativeLayout>

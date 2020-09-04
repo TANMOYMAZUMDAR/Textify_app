@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Textify</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="detect_text">Detect Text</string>
+    <string name="detected_text_from_image">Detected Text From Image</string>
+    <string name="todo">TODO</string>
+    <string name="say_it">Say It!</string>
+    <string name="translate">Translate</string>
+    <string name="powered_by_tanmoy_mazumdar">Powered By Tanmoy Mazumdar</string>
+</resources>
